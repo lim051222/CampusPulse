@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/api.ts","./src/main.tsx","./src/types.ts","./src/components/aipanel.tsx","./src/components/commandfeed.tsx","./src/components/devicecard.tsx","./src/components/insightspanel.tsx","./src/components/metricvalue.tsx","./src/components/simpanel.tsx","./src/components/sourcebadge.tsx","./src/components/trendchart.tsx"],"version":"5.9.3"}

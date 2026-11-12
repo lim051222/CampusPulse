@@ -1,0 +1,56 @@
+# ---------------------------------------------------------------- secrets
+# Never commit credentials. Copy firmware/campuspulse_node/secrets.h.example
+# to secrets.h locally and fill in your own values.
+secrets.h
+firmware/**/secrets.h
+.env
+.env.local
+.env.*.local
+
+# ---------------------------------------------------------------- local tooling
+# Third-party agent skills and OpenSpec planning artifacts stay on this machine.
+.github/skills/
+openspec/
+
+# ---------------------------------------------------------------- firmware
+.arduino/
+build/
+*.bin
+*.elf
+
+# ---------------------------------------------------------------- python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# ---------------------------------------------------------------- backend runtime
+backend/data/
+*.db
+*.db-journal
+*.sqlite3
+
+# ---------------------------------------------------------------- node / next.js
+node_modules/
+.next/
+out/
+dist/
+.tmp/
+.vite/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+
+# ---------------------------------------------------------------- os / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+*.swp
+*.swo
